@@ -18,6 +18,18 @@ function App() {
               <Droplets className="h-8 w-8 text-blue-500" />
               <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">SARSARA</span>
             </div>
+            
+            {/* Bouton de thème pour mobile */}
+            <div className="flex md:hidden items-center">
+              <button
+                onClick={toggleTheme}
+                className="p-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors shadow-lg"
+                aria-label="Basculer le thème"
+              >
+                {theme === 'light' ? <Moon className="h-6 w-6" /> : <Sun className="h-6 w-6" />}
+              </button>
+            </div>
+            
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={() => scrollToSection('accueil')} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Accueil
