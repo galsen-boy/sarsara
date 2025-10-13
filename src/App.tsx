@@ -61,9 +61,18 @@ function App() {
           <div className="absolute -bottom-1/2 -left-1/2 w-full h-full bg-cyan-100 rounded-full opacity-20 blur-3xl"></div>
         </div>
         <div className="relative text-center px-4 sm:px-6 lg:px-8 pt-20">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
-            L'eau pure de <span className="text-blue-600 dark:text-blue-400">SARSARA</span>
-          </h1>
+          {/* Logo SARSARA */}
+          <div className="mb-8 animate-fade-in">
+            <img
+              src="/sarsara-logo.png"
+              alt="SARSARA - Eau pure et filtrée"
+              className="max-w-md md:max-w-2xl mx-auto h-auto filter drop-shadow-2xl"
+              style={{
+                mixBlendMode: theme === 'dark' ? 'screen' : 'normal',
+                filter: theme === 'dark' ? 'invert(1) hue-rotate(180deg)' : 'none'
+              }}
+            />
+          </div>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
             Une source naturelle de fraîcheur et de pureté pour votre bien-être quotidien
           </p>
