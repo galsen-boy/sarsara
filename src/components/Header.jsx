@@ -10,7 +10,7 @@ export default function Header() {
             {/* Background with overlay */}
             <div className="absolute inset-0 z-0">
                 <img src={waterBg} alt="Background" className="w-full h-full object-cover opacity-50" />
-                <div className="absolute inset-0 bg-sarsara-blue/90 mix-blend-multiply backdrop-blur-sm"></div>
+                <div className="absolute inset-0 bg-black/10 backdrop-blur-md"></div>
             </div>
 
             <div className="container relative z-10 mx-auto px-6 py-4 flex justify-between items-center">
@@ -40,7 +40,7 @@ export default function Header() {
                         {/* Mobile Menu Background */}
                         <div className="absolute inset-0 z-0">
                             <img src={waterBg} alt="Background" className="w-full h-full object-cover opacity-50" />
-                            <div className="absolute inset-0 bg-sarsara-blue/95 mix-blend-multiply backdrop-blur-md"></div>
+                            <div className="absolute inset-0 bg-black/10 backdrop-blur-md"></div>
                         </div>
 
                         <div className="relative z-10 flex flex-col items-center space-y-4 w-full">

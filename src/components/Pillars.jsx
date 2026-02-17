@@ -35,7 +35,7 @@ export default function Pillars() {
             {/* Background with overlay */}
             <div className="absolute inset-0">
                 <img src={waterBg} alt="Background" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-sarsara-blue/90 mix-blend-multiply"></div>
+                <div className="absolute inset-0 bg-black/10 backdrop-blur-sm"></div>
             </div>
 
             <div className="container relative z-10 mx-auto px-4">

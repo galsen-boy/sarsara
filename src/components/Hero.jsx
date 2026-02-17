@@ -12,7 +12,7 @@ export default function Hero() {
                     alt="Water Background"
                     className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black/30"></div>
+                <div className="absolute inset-0 bg-transparent"></div>
             </div>
 
             {/* Content */}
