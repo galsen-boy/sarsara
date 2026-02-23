@@ -8,13 +8,13 @@ import waterBg from '../assets/water_background.png';
 const formats = [
     {
         id: 1,
-        name: "Sachet 500ml",
+        name: "Sachet 400ml",
         image: sachet500,
         desc: "Pratique et nomade, pour une hydratation immédiate."
     },
     {
         id: 2,
-        name: "Bouteille 500ml",
+        name: "Bouteille 330ml",
         image: bottle500,
         desc: "Le format idéal pour vos déplacements quotidiens."
     },
@@ -26,7 +26,7 @@ const formats = [
     },
     {
         id: 4,
-        name: "Bonbonne 10L",
+        name: "Bonbonne 19L",
         image: bonbonne10,
         desc: "L'essentiel pour la maison et le bureau."
     }
