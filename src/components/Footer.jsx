@@ -38,6 +38,7 @@ export default function Footer() {
                         <p className="mt-4 font-body text-gray-100 text-sm">
                             contact@sarsara.com<br />
                             +221 77 011 68 54<br />
+                            +221 70 945 43 12<br />
                             PETIT MBAO VILLA N°1613
                         </p>
                     </div>
