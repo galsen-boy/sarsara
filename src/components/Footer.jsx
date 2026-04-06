@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle } from 'lucide-react';
 import waterBg from '../assets/water_background.png';
 
 export default function Footer() {
@@ -31,9 +31,9 @@ export default function Footer() {
                     <div>
                         <h4 className="font-bold mb-4 uppercase tracking-wider">Suivez-nous</h4>
                         <div className="flex space-x-4">
-                            <a href="#" className="hover:text-sarsara-yellow transition-colors"><Facebook /></a>
-                            <a href="#" className="hover:text-sarsara-yellow transition-colors"><Instagram /></a>
-                            <a href="#" className="hover:text-sarsara-yellow transition-colors"><Twitter /></a>
+                            <a href="https://www.facebook.com/share/1UBA8vjKPZ/?mibextid=wwXlfr" target="_blank" rel="noopener noreferrer" className="hover:text-sarsara-yellow transition-colors"><Facebook /></a>
+                            <a href="https://www.instagram.com/sarsara_water?igsh=dTRkYXVvY3UwNzNq&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-sarsara-yellow transition-colors"><Instagram /></a>
+                            <a href="https://wa.me/221787842929" target="_blank" rel="noopener noreferrer" className="hover:text-sarsara-yellow transition-colors"><MessageCircle /></a>
                         </div>
                         <p className="mt-4 font-body text-gray-100 text-sm">
                             contact@sarsara.com<br />
