@@ -36,7 +36,7 @@ export default function Footer() {
                             <a href="https://wa.me/221787842929" target="_blank" rel="noopener noreferrer" className="hover:text-sarsara-yellow transition-colors"><MessageCircle /></a>
                         </div>
                         <p className="mt-4 font-body text-gray-100 text-sm">
-                            contact@sarsara.com<br />
+                            contact@sarsara.net<br />
                             +221 78 784 29 29<br />
                             +221 70 945 43 12<br />
                             PETIT MBAO VILLA N°1613
